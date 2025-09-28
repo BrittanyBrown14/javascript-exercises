@@ -8,7 +8,13 @@
 */
 
 // Add your code right below, good luck!
-
+const firstName = "Brittany";
+const lastName = "Brown-Nitu";
+const thisYear = 2025;
+const birthYear = 1999;
+const fullName = firstName + " " + lastName;
+const age = thisYear - birthYear;
+const greeting = "Hello! My name is " + fullName + " and I am " + age +" years old."
 
 
 
@@ -23,3 +29,5 @@ module.exports = {
   fullName: typeof fullName === 'undefined' ? undefined : fullName,
   age: typeof age === 'undefined' ? undefined : age
 }
+
+// Solved
